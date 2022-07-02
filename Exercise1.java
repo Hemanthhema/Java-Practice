@@ -1,10 +1,23 @@
-// Write a program to print your Name, Father's Name and Mailing Address in different lines
+/* Write a program to check whether a number is positive or negative
+Test Data 1: x=31
+Expected Output: Number is positive
+Test Data 2: x=-31
+Expected Output: Number is negative
+*/
 
 class Exercise1 {
-public static void main(String[] args){
- System.out.println("Name= Hemanth");
-  System.out.println("Father's Name= Srinivas");
-  System.out.println("Email= hemanthuppalapati@gmail.com");
+
+	public static void main(String args[]) {
+int x=-31;
+    if(x>=0){
+      System.out.println("positivenumber");
+    }
+else if(x<=0){
+  System.out.println("neagitive number");
 }
+    else {       
+      System.out.println("zero");
+    }
+	}
+
 }
- 
