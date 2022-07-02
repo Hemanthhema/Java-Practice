@@ -1,0 +1,10 @@
+// Write a program to print your Name, Father's Name and Mailing Address in different lines
+
+class Exercise1 {
+public static void main(String[] args){
+ System.out.println("Name= Hemanth");
+  System.out.println("Father's Name= Srinivas");
+  System.out.println("Email= hemanthuppalapati@gmail.com");
+}
+}
+ 
